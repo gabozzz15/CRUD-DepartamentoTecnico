@@ -1,0 +1,343 @@
+{
+    "home": {
+        "title": "Dashboard",
+        "welcome": {
+            "title": "Welcome to the Technical Department!",
+            "subtitle": "Manage your equipment, technicians, and service orders efficiently."
+        },
+        "stats": {
+            "equipment": {
+                "title": "Equipment",
+                "subtitle": "Total registered",
+                "details": "View details"
+            },
+            "technicians": {
+                "title": "Technicians",
+                "subtitle": "Currently active",
+                "details": "View details"
+            },
+            "pending": {
+                "title": "Pending",
+                "subtitle": "Orders in process",
+                "details": "View details"
+            },
+            "completed": {
+                "title": "Completed",
+                "subtitle": "Finished orders",
+                "details": "View details"
+            }
+        },
+        "quick_actions": {
+            "title": "Quick Actions",
+            "view_all": "View all",
+            "new_order": "New Order",
+            "new_equipment": "New Equipment",
+            "new_technician": "New Technician",
+            "reports": "View Reports"
+        },
+        "recent_orders": {
+            "title": "Recent Service Orders",
+            "filter": "Filter",
+            "filter_options": {
+                "all": "All",
+                "pending": "Pending",
+                "completed": "Completed",
+                "not_repairable": "Not Repairable"
+            },
+            "table_headers": {
+                "id": "ID",
+                "equipment": "Equipment",
+                "technician": "Technician",
+                "status": "Status",
+                "entry_date": "Entry Date",
+                "actions": "Actions"
+            },
+            "no_orders": "No orders registered",
+            "view_all": "View all orders"
+        },
+        "activity_summary": {
+            "title": "Activity Summary",
+            "monthly_stats": "Monthly Statistics",
+            "completed_orders": "Completed Orders",
+            "pending_orders": "Pending Orders",
+            "not_repairable_orders": "Not Repairable"
+        }
+    },
+    "sidebar": {
+        "title": "Technical Department",
+        "subtitle": "Administration Panel",
+        "search": "Search...",
+        "main_menu": "Main Menu",
+        "dashboard": "Dashboard",
+        "equipment": "Equipment",
+        "technicians": "Technicians",
+        "orders": "Orders",
+        "reports": "Reports",
+        "user_menu": "User",
+        "my_profile": "My Profile",
+        "help": "Help",
+        "logout": "Logout",
+        "support": {
+            "title": "Need help?",
+            "description": "Contact technical support to solve any problem.",
+            "button": "Contact Support"
+        }
+    },
+    "footer": {
+        "technical_management": "Technical Management System",
+        "version": "Version"
+    },
+    "navigation": {
+        "help": "Help",
+        "profile": "My Profile"
+    },
+    "profile": {
+        "title": "My Profile",
+        "personal_info": "Personal Information",
+        "configuration": "Configuration",
+        "security": "Security",
+        "full_name": "Full Name",
+        "username": "Username",
+        "username_note": "Username cannot be changed",
+        "buttons": {
+            "save_changes": "Save Changes",
+            "save_config": "Save Configuration",
+            "change_password": "Change Password"
+        },
+        "app_preferences": "Application Preferences",
+        "notifications": {
+            "title": "Notifications",
+            "email": "Receive email notifications",
+            "system": "System notifications"
+        },
+        "appearance": {
+            "title": "Appearance",
+            "dark_mode": "Dark mode",
+            "font_size": {
+                "title": "Font size",
+                "small": "Small",
+                "medium": "Medium",
+                "large": "Large"
+            }
+        },
+        "language": {
+            "title": "Language",
+            "spanish": "Español",
+            "english": "English"
+        },
+        "current_password": "Current Password",
+        "new_password": "New Password",
+        "confirm_password": "Confirm New Password",
+        "password_requirements": "Password must be at least 8 characters long, include uppercase, lowercase letters and numbers.",
+        "active_sessions": "Active Sessions",
+        "current_session": "Current Session",
+        "active_now": "Active now",
+        "ip": "IP"
+    },
+    "equipment": {
+        "title": "Equipment Management",
+        "new_equipment": "New Equipment",
+        "equipment_list": "Equipment List",
+        "add_equipment": "Add New Equipment",
+        "edit_equipment": "Edit Equipment",
+        "fields": {
+            "id": "ID",
+            "type": "Type",
+            "brand": "Brand",
+            "department": "Department",
+            "description": "Description",
+            "actions": "Actions"
+        },
+        "equipment_type": "Equipment Type",
+        "select_type": "Select a type",
+        "types": {
+            "pc": "PC",
+            "laptop": "Laptop",
+            "printer": "Printer",
+            "router": "Router",
+            "other": "Other"
+        },
+        "brand": "Brand",
+        "department": "Department",
+        "description": "Description",
+        "description_help": "Include details such as components, specifications, etc.",
+        "buttons": {
+            "save": "Save",
+            "update": "Update",
+            "cancel": "Cancel"
+        },
+        "messages": {
+            "added": "Equipment added successfully",
+            "updated": "Equipment updated successfully",
+            "deleted": "Equipment deleted successfully",
+            "error_add": "Error adding equipment",
+            "error_update": "Error updating equipment",
+            "error_delete": "Error deleting equipment",
+            "cannot_delete": "Cannot delete equipment because it is associated with one or more orders",
+            "no_equipment": "No equipment registered",
+            "confirm_delete": "Are you sure you want to delete this equipment?"
+        }
+    },
+    "reports": {
+        "title": "Reports",
+        "print": "Print Report",
+        "filters": {
+            "title": "Report Filters",
+            "report_type": "Report Type",
+            "report_types": {
+                "technicians": "Orders by Technician",
+                "equipment": "Orders by Equipment Type",
+                "departments": "Orders by Department",
+                "repair_time": "Average Repair Time"
+            },
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "generate": "Generate"
+        },
+        "tables": {
+            "technicians": {
+                "technician": "Technician",
+                "total_orders": "Total Orders",
+                "pending": "Pending",
+                "repaired": "Repaired",
+                "delivered": "Delivered",
+                "not_repairable": "Not Repairable"
+            },
+            "equipment": {
+                "type": "Equipment Type",
+                "total_orders": "Total Orders",
+                "pending": "Pending",
+                "repaired": "Repaired",
+                "delivered": "Delivered",
+                "not_repairable": "Not Repairable"
+            },
+            "departments": {
+                "department": "Department",
+                "total_orders": "Total Orders",
+                "pending": "Pending",
+                "repaired": "Repaired",
+                "delivered": "Delivered",
+                "not_repairable": "Not Repairable"
+            },
+            "repair_time": {
+                "technician": "Technician",
+                "total_orders": "Total Orders",
+                "average_time": "Average Time (hours)"
+            },
+            "no_data": "No data to display"
+        },
+        "report_titles": {
+            "technicians": "Orders by Technician Report",
+            "equipment": "Orders by Equipment Type Report",
+            "departments": "Orders by Department Report",
+            "repair_time": "Average Repair Time Report"
+        }
+    },
+    "help": {
+        "title": "Help Center",
+        "search_placeholder": "Search in help...",
+        "banner": {
+            "title": "Need help with the system?",
+            "subtitle": "Find answers to frequently asked questions or contact our technical support team.",
+            "support_button": "Contact Support"
+        },
+        "categories": {
+            "general": "General",
+            "equipment": "Equipment",
+            "technicians": "Technicians",
+            "orders": "Orders",
+            "reports": "Reports",
+            "account": "My Account"
+        },
+        "sections": {
+            "general": {
+                "title": "General Questions",
+                "questions": {
+                    "q1": "What is the Technical Department Management System?",
+                    "a1": "It's a platform designed to manage equipment, technicians, and service orders efficiently. It allows tracking repairs, generating reports, and managing equipment inventory.",
+                    "q2": "How can I navigate through the system?",
+                    "a2": "Use the sidebar menu to access different sections of the system. The main dashboard shows you a summary of recent activity and important statistics.",
+                    "q3": "Can I customize the system interface?",
+                    "a3": "Yes, you can customize various aspects of the interface from your profile, including dark mode, font size, and language."
+                }
+            },
+            "equipment": {
+                "title": "Equipment Management",
+                "questions": {
+                    "q1": "How do I add new equipment to the system?",
+                    "a1": "Go to the 'Equipment' section and click on the 'New Equipment' button. Fill out the form with the required data and save the changes.",
+                    "q2": "Can I delete equipment that already has associated orders?",
+                    "a2": "No, for data integrity, you cannot delete equipment that has associated service orders. This ensures that the repair history is maintained.",
+                    "q3": "What information should I include in the equipment description?",
+                    "a3": "It's recommended to include technical specifications, serial number, physical condition, and any other relevant information that helps identify the equipment."
+                }
+            },
+            "technicians": {
+                "title": "Technician Management",
+                "questions": {
+                    "q1": "How do I assign a technician to a service order?",
+                    "a1": "When creating or editing a service order, select the technician from the dropdown menu. Only active technicians in the system will be shown.",
+                    "q2": "Can I view the history of orders attended by a technician?",
+                    "a2": "Yes, in the 'Reports' section you can generate a report filtered by technician that shows all the orders they have attended.",
+                    "q3": "How do I mark a technician as inactive?",
+                    "a3": "In the technician's profile, change their status to 'Inactive'. This will prevent them from being assigned new orders but will maintain their history in the system."
+                }
+            },
+            "orders": {
+                "title": "Order Management",
+                "questions": {
+                    "q1": "What are the possible states of an order?",
+                    "a1": "An order can be in the following states: Pending (newly created), In Process (assigned to a technician), Repaired (technical work completed), Delivered (returned to the customer), or Not Repairable.",
+                    "q2": "How do I register the delivery of a repaired equipment?",
+                    "a2": "Open the corresponding order and change its status to 'Delivered'. The system will automatically record the date and time of delivery.",
+                    "q3": "Can I attach files to a service order?",
+                    "a3": "Yes, you can attach photos, PDF documents, or other relevant files as evidence of the equipment's condition or technical documentation."
+                }
+            },
+            "reports": {
+                "title": "Reports and Statistics",
+                "questions": {
+                    "q1": "What types of reports can I generate?",
+                    "a1": "You can generate reports of orders by technician, by equipment type, by department, and average repair time. All reports can be filtered by date range.",
+                    "q2": "Can I export the generated reports?",
+                    "a2": "Yes, you can print the reports or save them as PDF using your browser's print functionality.",
+                    "q3": "How can I view the general statistics of the department?",
+                    "a3": "The main dashboard shows a summary of the most important statistics. For more detailed analysis, use the Reports section."
+                }
+            },
+            "account": {
+                "title": "My Account and Settings",
+                "questions": {
+                    "q1": "How do I change my password?",
+                    "a1": "Go to your profile, select the 'Security' tab, and use the password change form. You will need to enter your current password and the new password twice.",
+                    "q2": "How do I change the system language?",
+                    "a2": "In your profile, go to the 'Configuration' tab and select the desired language in the 'Language' section. The changes will be applied immediately.",
+                    "q3": "What do I do if I forget my password?",
+                    "a3": "On the login screen, click on 'Forgot Password' and follow the instructions to reset it through your registered email."
+                }
+            }
+        },
+        "contact": {
+            "title": "Contact Support",
+            "subject": "Subject",
+            "subject_placeholder": "Write the subject of your inquiry",
+            "message": "Message",
+            "message_placeholder": "Describe your problem or inquiry in detail",
+            "priority": "Priority",
+            "priority_options": {
+                "low": "Low",
+                "medium": "Medium",
+                "high": "High",
+                "urgent": "Urgent"
+            },
+            "send_button": "Send Message",
+            "info_title": "Contact Information",
+            "info_subtitle": "If you prefer to contact us directly, you can use the following means:",
+            "hours": "Monday to Friday, 9:00 AM - 6:00 PM",
+            "response_time": "Our average response time is 24 business hours."
+        }
+    },
+    "dashboard": {
+        "title": "DeptTécnico"
+    }
+}

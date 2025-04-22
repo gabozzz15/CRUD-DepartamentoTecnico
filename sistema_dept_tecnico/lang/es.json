@@ -1,0 +1,343 @@
+{
+    "home": {
+        "title": "Panel Principal",
+        "welcome": {
+            "title": "¡Bienvenido al Departamento Técnico!",
+            "subtitle": "Gestiona tus equipos, técnicos y órdenes de servicio de manera eficiente."
+        },
+        "stats": {
+            "equipment": {
+                "title": "Equipos",
+                "subtitle": "Total registrados",
+                "details": "Ver detalles"
+            },
+            "technicians": {
+                "title": "Técnicos",
+                "subtitle": "Activos actualmente",
+                "details": "Ver detalles"
+            },
+            "pending": {
+                "title": "Pendientes",
+                "subtitle": "Órdenes en proceso",
+                "details": "Ver detalles"
+            },
+            "completed": {
+                "title": "Completadas",
+                "subtitle": "Órdenes finalizadas",
+                "details": "Ver detalles"
+            }
+        },
+        "quick_actions": {
+            "title": "Acciones Rápidas",
+            "view_all": "Ver todas",
+            "new_order": "Nueva Orden",
+            "new_equipment": "Nuevo Equipo",
+            "new_technician": "Nuevo Técnico",
+            "reports": "Ver Reportes"
+        },
+        "recent_orders": {
+            "title": "Órdenes de servicio recientes",
+            "filter": "Filtrar",
+            "filter_options": {
+                "all": "Todas",
+                "pending": "Pendientes",
+                "completed": "Completadas",
+                "not_repairable": "No reparables"
+            },
+            "table_headers": {
+                "id": "ID",
+                "equipment": "Equipo",
+                "technician": "Técnico",
+                "status": "Estado",
+                "entry_date": "Fecha Entrada",
+                "actions": "Acciones"
+            },
+            "no_orders": "No hay órdenes registradas",
+            "view_all": "Ver todas las órdenes"
+        },
+        "activity_summary": {
+            "title": "Resumen de actividad",
+            "monthly_stats": "Estadísticas del mes",
+            "completed_orders": "Órdenes completadas",
+            "pending_orders": "Órdenes pendientes",
+            "not_repairable_orders": "No reparables"
+        }
+    },
+    "sidebar": {
+        "title": "Departamento Técnico",
+        "subtitle": "Panel de Administración",
+        "search": "Buscar...",
+        "main_menu": "Menú Principal",
+        "dashboard": "Dashboard",
+        "equipment": "Equipos",
+        "technicians": "Técnicos",
+        "orders": "Órdenes",
+        "reports": "Reportes",
+        "user_menu": "Usuario",
+        "my_profile": "Mi Perfil",
+        "help": "Ayuda",
+        "logout": "Cerrar Sesión",
+        "support": {
+            "title": "¿Necesitas ayuda?",
+            "description": "Contacta con soporte técnico para resolver cualquier problema.",
+            "button": "Contactar Soporte"
+        }
+    },
+    "footer": {
+        "technical_management": "Sistema de Gestión Técnica",
+        "version": "Versión"
+    },
+    "navigation": {
+        "help": "Ayuda",
+        "profile": "Mi Perfil"
+    },
+    "profile": {
+        "title": "Mi Perfil",
+        "personal_info": "Información Personal",
+        "configuration": "Configuración",
+        "security": "Seguridad",
+        "full_name": "Nombre Completo",
+        "username": "Nombre de Usuario",
+        "username_note": "El nombre de usuario no se puede cambiar",
+        "buttons": {
+            "save_changes": "Guardar Cambios",
+            "save_config": "Guardar Configuración",
+            "change_password": "Cambiar Contraseña"
+        },
+        "app_preferences": "Preferencias de la Aplicación",
+        "notifications": {
+            "title": "Notificaciones",
+            "email": "Recibir notificaciones por correo",
+            "system": "Notificaciones del sistema"
+        },
+        "appearance": {
+            "title": "Apariencia",
+            "dark_mode": "Modo oscuro",
+            "font_size": {
+                "title": "Tamaño de fuente",
+                "small": "Pequeño",
+                "medium": "Mediano",
+                "large": "Grande"
+            }
+        },
+        "language": {
+            "title": "Idioma",
+            "spanish": "Español",
+            "english": "English"
+        },
+        "current_password": "Contraseña Actual",
+        "new_password": "Nueva Contraseña",
+        "confirm_password": "Confirmar Nueva Contraseña",
+        "password_requirements": "La contraseña debe tener al menos 8 caracteres, incluir letras mayúsculas, minúsculas y números.",
+        "active_sessions": "Sesiones Activas",
+        "current_session": "Sesión Actual",
+        "active_now": "Activa ahora",
+        "ip": "IP"
+    },
+    "equipment": {
+        "title": "Gestión de Equipos",
+        "new_equipment": "Nuevo Equipo",
+        "equipment_list": "Listado de Equipos",
+        "add_equipment": "Agregar Nuevo Equipo",
+        "edit_equipment": "Editar Equipo",
+        "fields": {
+            "id": "ID",
+            "type": "Tipo",
+            "brand": "Marca",
+            "department": "Departamento",
+            "description": "Descripción",
+            "actions": "Acciones"
+        },
+        "equipment_type": "Tipo de Equipo",
+        "select_type": "Seleccione un tipo",
+        "types": {
+            "pc": "PC",
+            "laptop": "Laptop",
+            "printer": "Impresora",
+            "router": "Router",
+            "other": "Otro"
+        },
+        "brand": "Marca",
+        "department": "Departamento",
+        "description": "Descripción",
+        "description_help": "Incluya detalles como componentes, especificaciones, etc.",
+        "buttons": {
+            "save": "Guardar",
+            "update": "Actualizar",
+            "cancel": "Cancelar"
+        },
+        "messages": {
+            "added": "Equipo agregado correctamente",
+            "updated": "Equipo actualizado correctamente",
+            "deleted": "Equipo eliminado correctamente",
+            "error_add": "Error al agregar equipo",
+            "error_update": "Error al actualizar equipo",
+            "error_delete": "Error al eliminar equipo",
+            "cannot_delete": "No se puede eliminar el equipo porque está asociado a una o más órdenes",
+            "no_equipment": "No hay equipos registrados",
+            "confirm_delete": "¿Está seguro de eliminar este equipo?"
+        }
+    },
+    "reports": {
+        "title": "Reportes",
+        "print": "Imprimir Reporte",
+        "filters": {
+            "title": "Filtros de Reporte",
+            "report_type": "Tipo de Reporte",
+            "report_types": {
+                "technicians": "Órdenes por Técnico",
+                "equipment": "Órdenes por Tipo de Equipo",
+                "departments": "Órdenes por Departamento",
+                "repair_time": "Tiempo Promedio de Reparación"
+            },
+            "start_date": "Fecha Inicio",
+            "end_date": "Fecha Fin",
+            "generate": "Generar"
+        },
+        "tables": {
+            "technicians": {
+                "technician": "Técnico",
+                "total_orders": "Total Órdenes",
+                "pending": "Pendientes",
+                "repaired": "Reparados",
+                "delivered": "Entregados",
+                "not_repairable": "No Reparables"
+            },
+            "equipment": {
+                "type": "Tipo de Equipo",
+                "total_orders": "Total Órdenes",
+                "pending": "Pendientes",
+                "repaired": "Reparados",
+                "delivered": "Entregados",
+                "not_repairable": "No Reparables"
+            },
+            "departments": {
+                "department": "Departamento",
+                "total_orders": "Total Órdenes",
+                "pending": "Pendientes",
+                "repaired": "Reparados",
+                "delivered": "Entregados",
+                "not_repairable": "No Reparables"
+            },
+            "repair_time": {
+                "technician": "Técnico",
+                "total_orders": "Total Órdenes",
+                "average_time": "Tiempo Promedio (horas)"
+            },
+            "no_data": "No hay datos para mostrar"
+        },
+        "report_titles": {
+            "technicians": "Reporte de Órdenes por Técnico",
+            "equipment": "Reporte de Órdenes por Tipo de Equipo",
+            "departments": "Reporte de Órdenes por Departamento",
+            "repair_time": "Reporte de Tiempo Promedio de Reparación"
+        }
+    },
+    "help": {
+        "title": "Centro de Ayuda",
+        "search_placeholder": "Buscar en la ayuda...",
+        "banner": {
+            "title": "¿Necesitas ayuda con el sistema?",
+            "subtitle": "Encuentra respuestas a las preguntas más frecuentes o contacta con nuestro equipo de soporte técnico.",
+            "support_button": "Contactar Soporte"
+        },
+        "categories": {
+            "general": "General",
+            "equipment": "Equipos",
+            "technicians": "Técnicos",
+            "orders": "Órdenes",
+            "reports": "Reportes",
+            "account": "Mi Cuenta"
+        },
+        "sections": {
+            "general": {
+                "title": "Preguntas Generales",
+                "questions": {
+                    "q1": "¿Qué es el Sistema de Gestión del Departamento Técnico?",
+                    "a1": "Es una plataforma diseñada para administrar equipos, técnicos y órdenes de servicio de manera eficiente. Permite realizar seguimiento de reparaciones, generar reportes y gestionar el inventario de equipos.",
+                    "q2": "¿Cómo puedo navegar por el sistema?",
+                    "a2": "Utiliza el menú lateral (sidebar) para acceder a las diferentes secciones del sistema. El dashboard principal te muestra un resumen de la actividad reciente y estadísticas importantes.",
+                    "q3": "¿Puedo personalizar la interfaz del sistema?",
+                    "a3": "Sí, puedes personalizar varios aspectos de la interfaz desde tu perfil, incluyendo el modo oscuro, tamaño de fuente e idioma."
+                }
+            },
+            "equipment": {
+                "title": "Gestión de Equipos",
+                "questions": {
+                    "q1": "¿Cómo agrego un nuevo equipo al sistema?",
+                    "a1": "Ve a la sección 'Equipos' y haz clic en el botón 'Nuevo Equipo'. Completa el formulario con los datos requeridos y guarda los cambios.",
+                    "q2": "¿Puedo eliminar un equipo que ya tiene órdenes asociadas?",
+                    "a2": "No, por integridad de datos no se permite eliminar equipos que tienen órdenes de servicio asociadas. Esto garantiza que se mantenga el historial de reparaciones.",
+                    "q3": "¿Qué información debo incluir en la descripción del equipo?",
+                    "a3": "Es recomendable incluir especificaciones técnicas, número de serie, estado físico y cualquier otra información relevante que ayude a identificar el equipo."
+                }
+            },
+            "technicians": {
+                "title": "Gestión de Técnicos",
+                "questions": {
+                    "q1": "¿Cómo asigno un técnico a una orden de servicio?",
+                    "a1": "Al crear o editar una orden de servicio, selecciona el técnico desde el menú desplegable. Solo se mostrarán los técnicos activos en el sistema.",
+                    "q2": "¿Puedo ver el historial de órdenes atendidas por un técnico?",
+                    "a2": "Sí, en la sección de 'Reportes' puedes generar un informe filtrado por técnico que muestre todas las órdenes que ha atendido.",
+                    "q3": "¿Cómo marco a un técnico como inactivo?",
+                    "a3": "En la ficha del técnico, cambia su estado a 'Inactivo'. Esto evitará que se le asignen nuevas órdenes pero mantendrá su historial en el sistema."
+                }
+            },
+            "orders": {
+                "title": "Gestión de Órdenes",
+                "questions": {
+                    "q1": "¿Cuáles son los estados posibles de una orden?",
+                    "a1": "Una orden puede estar en estado: Pendiente (recién creada), En proceso (asignada a un técnico), Reparado (trabajo técnico completado), Entregado (devuelto al cliente) o No reparable.",
+                    "q2": "¿Cómo registro la entrega de un equipo reparado?",
+                    "a2": "Abre la orden correspondiente y cambia su estado a 'Entregado'. El sistema registrará automáticamente la fecha y hora de entrega.",
+                    "q3": "¿Puedo adjuntar archivos a una orden de servicio?",
+                    "a3": "Sí, puedes adjuntar fotos, documentos PDF u otros archivos relevantes como evidencia del estado del equipo o documentación técnica."
+                }
+            },
+            "reports": {
+                "title": "Reportes y Estadísticas",
+                "questions": {
+                    "q1": "¿Qué tipos de reportes puedo generar?",
+                    "a1": "Puedes generar reportes de órdenes por técnico, por tipo de equipo, por departamento y de tiempo promedio de reparación. Todos los reportes pueden filtrarse por rango de fechas.",
+                    "q2": "¿Puedo exportar los reportes generados?",
+                    "a2": "Sí, puedes imprimir los reportes o guardarlos como PDF utilizando la funcionalidad de impresión de tu navegador.",
+                    "q3": "¿Cómo puedo ver las estadísticas generales del departamento?",
+                    "a3": "El dashboard principal muestra un resumen de las estadísticas más importantes. Para análisis más detallados, utiliza la sección de Reportes."
+                }
+            },
+            "account": {
+                "title": "Mi Cuenta y Configuración",
+                "questions": {
+                    "q1": "¿Cómo cambio mi contraseña?",
+                    "a1": "Ve a tu perfil, selecciona la pestaña 'Seguridad' y utiliza el formulario de cambio de contraseña. Deberás ingresar tu contraseña actual y la nueva contraseña dos veces.",
+                    "q2": "¿Cómo cambio el idioma del sistema?",
+                    "a2": "En tu perfil, ve a la pestaña 'Configuración' y selecciona el idioma deseado en la sección 'Idioma'. Los cambios se aplicarán inmediatamente.",
+                    "q3": "¿Qué hago si olvido mi contraseña?",
+                    "a3": "En la pantalla de inicio de sesión, haz clic en 'Olvidé mi contraseña' y sigue las instrucciones para restablecerla a través de tu correo electrónico registrado."
+                }
+            }
+        },
+        "contact": {
+            "title": "Contactar con Soporte",
+            "subject": "Asunto",
+            "subject_placeholder": "Escribe el asunto de tu consulta",
+            "message": "Mensaje",
+            "message_placeholder": "Describe detalladamente tu problema o consulta",
+            "priority": "Prioridad",
+            "priority_options": {
+                "low": "Baja",
+                "medium": "Media",
+                "high": "Alta",
+                "urgent": "Urgente"
+            },
+            "send_button": "Enviar Mensaje",
+            "info_title": "Información de Contacto",
+            "info_subtitle": "Si prefieres contactarnos directamente, puedes utilizar los siguientes medios:",
+            "hours": "Lunes a Viernes, 9:00 AM - 6:00 PM",
+            "response_time": "Nuestro tiempo de respuesta promedio es de 24 horas hábiles."
+        }
+    },
+    "dashboard": {
+        "title": "DeptTécnico"
+    }
+}
