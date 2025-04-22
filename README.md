@@ -64,10 +64,8 @@ sistema-dept-tecnico/
 
 ## 📸 Capturas de Pantalla
 
-[![image.png](https://i.postimg.cc/9MpRzZYt/image.png)](https://postimg.cc/1n85jgTf)
-[![image.png](https://i.postimg.cc/gkrXkwX8/image.png)](https://postimg.cc/RN5VgZTZ)
-[![image.png](https://i.postimg.cc/c15TMfYZ/image.png)](https://postimg.cc/w3Lh9y0b)
-[![image.png](https://i.postimg.cc/CL3N9YmQ/image.png)](https://postimg.cc/8jbM688R)
+[![image.png](https://i.postimg.cc/9MpRzZYt/image.png)](https://postimg.cc/1n85jgTf) [![image.png](https://i.postimg.cc/gkrXkwX8/image.png)](https://postimg.cc/RN5VgZTZ)
+[![image.png](https://i.postimg.cc/c15TMfYZ/image.png)](https://postimg.cc/w3Lh9y0b) [![image.png](https://i.postimg.cc/CL3N9YmQ/image.png)](https://postimg.cc/8jbM688R)
 
 ## 🔐 Credenciales de Prueba
 
