@@ -29,7 +29,7 @@ Un sistema web completo para la gestión y administración de equipos, técnicos
 
 1. Clona este repositorio:
    ```
-   git clone https://github.com/gabozzz15/sistema-dept-tecnico.git
+   git clone https://github.com/gabozzz15/CRUD-DepartamentoTecnico.git
    ```
 
 2. Importa la base de datos:
